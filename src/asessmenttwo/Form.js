@@ -3,6 +3,7 @@ import React, { Component } from 'react'
 
 
     class Forms extends Component {
+       
         state={
             name:"",
             dept:"",
@@ -17,6 +18,9 @@ import React, { Component } from 'react'
             })
         }
   
+        toggleClick = () => {
+            this.setState({clicked:!this.state.clicked})
+        };
         handleSubmit=(event)=>{
           event.preventDefault()
           console.log( "********start********",this.state)

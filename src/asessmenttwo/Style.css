@@ -41,14 +41,15 @@ body {
   .container1{
     
   
-  width: 1000px;
+  width: 1200px;
     height:auto;
     display: flex;
   justify-content: center;
   flex-wrap: wrap;
   position: relative;
+margin-left: 10px;
   top: 50px;
-  left: 300px;
+ left: 63px;
   border-radius: 10px;
   background-color:pink;
   
@@ -57,15 +58,16 @@ body {
   .container2{
     
     border: 2px solid black;
-    width: auto;
-    height: auto;
+    width: 500px;
+    height: 100px;
     background-color: rgb(221, 128, 143);
     border-radius: 15px;
-    margin: 20px;
+    margin: 30px;
     display: flex;
     font-size: 25px;
     justify-content: center;
     align-items: center;
+   
     
   }
  
